@@ -11732,3 +11732,19 @@ html {
     left: -2vw;
   }
 }
+
+@media (max-width: 778px) {
+  .card-body .d-flex {
+      flex-direction: column;
+  }
+
+  .card-body .img-fluid {
+      max-width: 100%;
+      height: auto;
+      padding: 20px;
+  }
+
+  .card-body .p-5 {
+      padding: 20px;
+  }
+}
