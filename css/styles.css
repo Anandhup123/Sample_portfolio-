@@ -8447,6 +8447,21 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important;
 }
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s linear;
+
+}
+.card{
+  transition: all 0.5s linear;
+}
+
+.card-link:hover .card {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
 
 @media (min-width: 576px) {
   .float-sm-start {
